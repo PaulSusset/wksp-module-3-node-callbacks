@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const { handleHomePage, handleFormData, handle404 } = require('./handlers');
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 
 express()
     .use(function(req, res, next) {
